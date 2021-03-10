@@ -1,0 +1,20 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownTarget" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="django.db.models.fields.CharField.__add__" />
+          <option value="orders.models.ProductInOrder.objects" />
+          <option value="orders.models.Order.objects" />
+          <option value="accounts.models.Customer.objects" />
+          <option value="listings.views.get_object_or_404" />
+          <option value="btre.contacts.models.Contact.objects" />
+          <option value="dict.__getitem__" />
+          <option value="captcha.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
